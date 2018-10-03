@@ -53,4 +53,59 @@
 8.union(4,2)
 	the array is as follows
 	4 1 1 4 1 8 6 2 1 0
+3.Weighted Union
+1.The contents if an id[] array is as follows
+	0 1 2 3 4 5 6 7 8 9
+2.After finding Weighted-Union algorithm
+	union(9,0)
+9 1 2 3 4 5 6 7 8 9
+3.union(3,4)
+	the array is as follows
+	9 1 2 3 3 5 6 7 8 9
+4.union(5,8)
+	the array is as follows
+	9 1 2 3 3 5 6 7 5 9
+5.union(7,2)
+	the array is as follows
+	9 1 7 3 3 5 6 7 5 9
+6.union(2,1)
+	the array is as follows
+	9 7 7 3 3 5 6 7 5 9
+6.union(5,7)
+	the array is as follows
+	9 7 7 3 3 7 6 7 5 9
+7.union(0,3)
+	the array is as follows
+	  9 7 7 9 3 7 6 7 5 9
+8.union(4,2)
+	the array is as follows
+	9 7 7 9 3 7 6 7 5 7
+4.Weighted-Union with path Compression
+1.The contents if an id[] array is as follows
+	0 1 2 3 4 5 6 7 8 9
+2.After finding Weighted-Union with path Compression algorithm
+	union(9,0)
+9 1 2 3 4 5 6 7 8 9
+3.union(3,4)
+	the array is as follows
+	9 1 2 3 3 5 6 7 8 9
+4.union(5,8)
+	the array is as follows
+	9 1 2 3 3 5 6 7 5 9
+5.union(7,2)
+	the array is as follows
+	9 1 7 3 3 5 6 7 5 9
+6.union(2,1)
+	the array is as follows
+	9 7 7 3 3 5 6 7 5 9
+6.union(5,7)
+	the array is as follows
+	9 7 7 3 3 7 6 7 7 9
+7.union(0,3)
+	the array is as follows
+	  9 7 7 9 9 7 6 7 5 9
+8.union(4,2)
+	the array is as follows
+	7 7 7 7 7 7 6 7 7 7
+
 
