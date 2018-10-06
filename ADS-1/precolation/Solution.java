@@ -1,4 +1,4 @@
-package com.abc;
+
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class Solution {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Please enter input");
+		//System.out.println("Please enter input");
 		int grid_size = sc.nextInt(); 
 		Percolation perc = new Percolation(grid_size);
 		

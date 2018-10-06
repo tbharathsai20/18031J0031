@@ -1,4 +1,3 @@
-package com.abc;
 
 public class Percolation {
 	private boolean[][] sites;

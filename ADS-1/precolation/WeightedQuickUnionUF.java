@@ -1,4 +1,4 @@
-package com.abc;
+
 
 public class WeightedQuickUnionUF {
 	private int[] id; // id[i] = parent of i
