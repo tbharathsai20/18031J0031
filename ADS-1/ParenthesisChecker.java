@@ -92,26 +92,19 @@ class ParenthesisChecker
 			}
 			if(t==false)
 			{
-				t=true;
-				System.out.println("NO");
 				count++;
 			}
-			else
-			{
-				System.out.println("YES");
-				count++;
-			}
-			//System.out.println(count);
+			System.out.println(count);
 			st.Empty();
 		}
-		/*if(t==true)
+		if(t==true)
 		{
 			System.out.print(true);
 		}
 		else
 		{
 			System.out.print(false);
-		}*/
-		//System.out.println(count);
+		}
+		System.out.println(count);
 	}
 }
